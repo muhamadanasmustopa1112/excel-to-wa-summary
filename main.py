@@ -11,6 +11,7 @@ API_KEY = os.getenv("STARSENDER_API_KEY")  # API Key dari Starsender
 PHONE = os.getenv("PHONE_NUMBER")  # Format internasional: 628xxx
 API_URL = "https://api.starsender.online/api/send"
 
+//
 # Baca file Excel
 df = pd.read_excel("data/laporan.xlsx")
 total_penjualan = df["jumlah"].sum()
